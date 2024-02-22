@@ -132,7 +132,7 @@ if __name__ == "__main__":
 
             elif choice == "3":
                 audio_file_path = browse_audio_file(lang_choice)
-                DEEPGRAM_API_KEY = '44d9c053698084b3e1d426024059efe751bb8569'
+                DEEPGRAM_API_KEY = 'hidden'
                 PATH_TO_FILE = audio_file_path
                 MIMETYPE = 'audio/wav'
                 break
